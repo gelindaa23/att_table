@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <!--informa pro arquivo que ele é um arquivo html -->
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">  
+    <!-- está setando os caracteres para o padrão UTF-8 -->
+        <title>Aula Table</title>
+    </head>
+    <body>
+        <h1>Aula de tabelas HTML!</h1>
+        <p>Minha primeira tabela em HTML </p>
+
+        <!--Tabela-->
+        <table border="1">
+            <!-- Coloca borda na tabela -->
+            <caption>Lista de personagens</caption> 
+            <tr>
+                <th colspan="4">
+                    <!--Fala quantas linhas ele vai ocupar-->
+                    Dados dos fofos
+                </th>
+            </tr>
+            <thead>
+                <tr> 
+                    <th>TURMA</th>
+                    <th>NOME</th>
+                    <th>IDADE</th>
+                    <th>CIDADE</th>
+                </tr>
+
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td rowspan="3">TURMA 1DS2</td>
+                    <td>Barbie</td>
+                    <td>11</td>
+                    <td>Barbieland</td>
+                </tr>
+                <tr>
+                    <td>Patolino</td>
+                    <td>5</td>
+                    <td>Patolas City</td>
+                </tr>
+                <tr>
+                    <td>Peixonauta</td>
+                    <td>10</td>
+                    <td>Lago ness city</td>
+
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>TOTAL</td>
+                    <td colspan="2">67</Td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
